@@ -1,0 +1,125 @@
+body{
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+    background: #f2f2f2;
+}
+
+
+
+#container{
+    width: 85%;
+    margin: 0 auto;
+    background: white;
+    min-width: 720px;
+    max-width: 1280px;
+}
+
+/*cabeçalho*/
+#marca{
+    height: 100px;
+    background: #004a66;
+    text-align: center;
+    line-height: 100px;
+    color: white;
+}
+
+#branco{
+    color: #00ffff;
+}
+/*fimm*/
+
+/*postagem*/
+
+#conteudo{
+    width: 85%;
+    float: right;
+}
+
+#conteudo-principal{
+    width: 67%;
+    float: left;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+#conteudo-principal h2{
+    color: #004a66;
+    padding-left: 20px;
+}
+img.imagem{
+    width: 96%;
+    padding: 2%;
+}
+
+#conteudo-lateral{
+    width: 30%;
+    float: right;
+    background: #00b5cc
+}
+
+.postagem-lateral{
+    padding: 5px;
+    border-bottom: 1px dotted #ccc;
+}
+
+h3{
+    background: #004a66;
+    color: white;
+    padding: 5px;
+    margin: 10px;
+}
+
+.postagem-lateral a{
+    color: white;
+    text-decoration: none;
+}
+
+.postagem-lateral a:hover{
+    background: #004a66;
+}
+
+
+.postagem-lateral p{
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+/*fimm*/
+
+#navegacao{
+    width: 15%;
+    float: left;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background: #00b5cc;
+}
+
+#navegacao ul{
+    list-style: none;
+}
+
+#navegacao li a{
+    text-decoration: none;
+}
+
+ul{
+    margin: 0px;
+    padding: 0px;
+}
+
+ul a{
+    padding: 5px 10px;
+    color: white;
+    display: block;
+}
+
+ul a:hover{
+    color: #00ffff;
+    background: #004a66;
+}
+
+#rodape{
+    clear: both;
+    background: #004a66;
+    padding: 5px;
+    color: white;
+    text-align: center;
+}
